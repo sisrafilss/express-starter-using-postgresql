@@ -41,7 +41,7 @@ connectDB();
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.send("Server has started at port", port);
+  res.render('index');
 });
 
 app.listen(port, () => {
