@@ -4,7 +4,9 @@ This is a starter project setup using `Express.js`, `PostgreSQL`, `TailwindCSS`,
 ## How to Run
 
 ### Step 1
-Install all required Node modules by running `npm install`.
+Install all required Node modules by running 
+```bash
+npm install
 
 ### Step 2
 Start your `PostgreSQL` server using `pgAdmin` or any similar tool on your local computer (if you are using a remote database server, this step is not required).
