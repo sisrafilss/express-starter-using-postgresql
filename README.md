@@ -16,7 +16,15 @@ Start your `PostgreSQL` server using `pgAdmin` or any similar tool on your local
 Update the `PostgreSQL` credentials in the `index.js` file according to your database configuration.
 
 ### Step 4
-In one terminal, run `npm run watch:css` to start TailwindCSS, which will watch for any file changes. In another terminal, run `npm run start-dev` to start the server.
+In one terminal, run 
+```bash
+npm run watch:css`
+```
+to start TailwindCSS, which will watch for any file changes. In another terminal, run 
+```bash
+npm run start-dev
+```
+to start the server.
 
 ### Step 5
 Open [http://localhost:3000/](http://localhost:3000/) in your browser to see the output. You can edit `index.js` or `index.ejs` as needed, save your changes, and refresh the page to see the updates. If the changes reflect as expected, congratulations! You have successfully run the project.
